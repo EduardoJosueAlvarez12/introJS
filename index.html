@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+	<script>
+		//string
+		document.write("<h1>Programación Computacional IV</h1>");
+		consolo.log("Mensaje");
+		//numeros
+		//enteros y decimales
+		console.log("Esto es un numero" + 2.5);
+		//boolean
+		//true or false
+		console.log(true);
+		//array
+		console.log(['anibal', 'amanda']);
+		
+		//crear variables
+		//let var const sin colocar el tipo
+		var name="jose";
+		let lastname="Caceres";
+		document.write(name);
+		
+		//estructura de control
+		let pass='222';
+		let input = 222;
+		let result=input===pass; //igualdad estricta, tipo valor
+		
+		if(result===true)
+		{
+			console.log(true);
+		}else{
+			console.log(false);
+		}
+		
+		//estructura switch
+		switch(result)
+		{
+			case true:
+				console.log("resultado switch" + true);
+				break;
+			case false:
+				console.log(false);
+				break;
+			default:
+			console.log("no definido");
+		}
+		
+		//repetitiva
+		let names = ["name", "anibal", "pablo"];
+		
+		for(i=0;i<names.length;i++)
+		{
+			console.log(names[i]);
+		}
+		
+	</script>
+
+</body>
+</html>
